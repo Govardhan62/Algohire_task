@@ -70,7 +70,7 @@ async def scrape_flipkart_titles_and_prices():
 
 
             # Stop after 5 pages
-            if page_number >= 1:
+            if page_number >= 5:
                 print("Reached 5 pages. Stopping.")
                 break
             
